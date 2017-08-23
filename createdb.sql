@@ -1,0 +1,10 @@
+
+CREATE DATABASE if not exists hngintern;
+CREATE TABLE c_form (
+userid INT NOT NULL AUTO_INCREMENT,
+u_fullname VARCHAR(255) NOT NULL,
+u_email VARCHAR(255) NOT NULL,
+message VARCHAR(255) NOT NULL,
+time TIMESTAMP(6) NOT NULL,
+PRIMARY KEY (userid)
+);
