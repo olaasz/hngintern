@@ -3,7 +3,7 @@
   {
     $dbhost = "localhost";
     $dbuser = "root";
-    $dbpass = "12promote3";
+    $dbpass = "";
     $dbname = "hngintern";
 
     //Create connection
